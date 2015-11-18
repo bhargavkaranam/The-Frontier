@@ -1,0 +1,346 @@
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background-color: #eaeaea;
+    border-left: 1px solid #ccc;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #aaa;
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(http://localhost/iecse/fonts/BebasNeue.woff) format('woff');
+}
+@font-face{
+font-family:aileron;
+src:url(fonts/Ailerons.ttf);
+}
+@font-face
+{
+    font-family: 'league';
+    src:url(fonts/leaguegothic-regular-webfont.woff) format('woff');
+}
+@font-face
+{
+ font-family:'forque';
+ src:url(fonts/Forque.ttf);
+}
+@font-face
+{
+    font-family: 'ProximaNovaRegular';
+    src:url(fonts/proxima.woff) format('woff');
+}
+@font-face
+{
+    font-family: 'helvetica';
+    src:url(fonts/helvetica.woff) format('woff');
+}
+@font-face
+{
+    font-family: 'roboto';
+    src:url(fonts/roboto.woff) format('woff');
+}
+@font-face
+{
+    font-family: 'BebasNeue';
+    src:url(fonts/bebasneue.woff) format('woff');
+}
+html,body
+{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	font-family: 'helvetica';
+	margin-bottom: 60px;
+}
+
+#part2
+{
+
+height: 92%;
+padding: 60px;
+position: relative;
+
+}
+ul
+{
+	list-style-type: none;
+	padding: 0;
+
+}
+h2
+{
+	padding: 0 !important;
+}
+
+#newsmore
+{
+	cursor: pointer;
+	color:#212121;
+	font-weight: bold;
+}
+#recentmore
+{
+	left:150px;
+	cursor: pointer;
+	color:#212121;
+	font-weight: bold;
+}
+
+#icons
+{
+    position: relative;
+    text-align: center;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+.like
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	cursor: pointer;
+	color:blue;
+	font-family: 'roboto';
+	padding: 0;
+}
+#date
+{
+	color:#616161;
+	float: right;
+	font-family: 'roboto';
+	letter-spacing: 1px;
+	font-weight: bold
+}
+
+#category
+{
+ position: absolute;
+ color:#616161;
+ letter-spacing: 1px;
+ font-family: 'roboto';
+}
+#title
+{
+	color:#000;
+	font-family: 'ProximaNovaRegular';
+	margin-top: 10px;
+	font-weight: bold;
+    font-size:1.4em;
+}
+#author
+{
+	float: left;
+	color:#616161;
+	font-family: 'roboto';
+	letter-spacing: 1px;
+	font-weight: bold
+}
+
+h1
+{
+	font-size: 30px !important;
+	text-align: center;
+	font-family: 'roboto';
+	color: #757575;
+	
+}
+h3
+{
+	text-align: right;
+	font-family: 'BebasNeue';
+}
+h5
+{
+	padding:0;
+	margin: 0;
+	text-align: right;
+}
+
+#icons img:hover, #icons img:active
+{
+	height: 35px;
+	width: 35px;
+}
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(Preloader_3.gif) center no-repeat #fff;
+}
+a
+{
+	text-decoration: none;
+}
+
+.team
+{
+	width: 80px;
+	height: 80px;
+	border-radius: 130px;
+	border: solid 3px;
+	margin-right: 100px;
+	background-size: 100%;
+	cursor: pointer;
+}
+.team1
+{
+	width: 20px;
+	height: 20px;
+	border-radius: 130px;
+	float: left;
+	background-size: 100%;
+	cursor: pointer;
+}
+.right
+{
+	overflow: hidden !important;
+}
+.gsc-search-box
+{
+ height: inherit !important;
+ width: 30px;
+ background: inherit !important;
+ margin: none !important;
+}
+.gsc-control-cse 
+{
+	height: inherit;
+	background: inherit !important;
+	border:none !important;
+	padding: none !important;
+}
+.gsc-search-button
+{
+	display: none !important;
+}
+.gsc-clear-button
+{
+	display: none !important;
+}
+.gsc-input 
+{
+	height: 20px !important;
+	background: none !important;
+	border-width: solid;
+}
+.teamtable
+{
+	height: 400px;
+	width: 400px;
+}
+#team
+{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.teamtable td
+{
+	text-align: center;
+	color: #1976D2;
+	font-weight: bold;
+	font-family: 'BebasNeue';
+        letter-spacing:1.5px;
+	font-size: 1.2em;
+}
+
+
+ p
+ {
+ 	padding:0;
+ 	margin: 0;
+ }
+#email
+{
+	color: #FFFFFF;
+}
+ul
+{
+	float: right;
+	list-style-type: none;
+}
+.ui-tabs .ui-tabs-nav
+{
+background: inherit;
+border:none;
+}
+
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+  position: relative;
+  top:20px;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+li>.waves-effect
+{
+ font-weight: bold !important;
+ font-size: 18px;
+ font-family:'helvetica' !important;
+}
+li>.waves-effect:hover,.waves-effect:active
+{
+ color:#FFA000;
+}
+.card-title
+{
+line-height:30px !important;
+}
+a .card-title:hover
+{
+color:#E65100!important;
+}
+#logo
+{
+	max-height: 100%;
+	max-width: 100%;
+	right: 0;
+	width: 200px;
+	height: 40px;
+}
+@media (max-width: 480px) { 
+.card-title 
+{
+line-height:15px !important;
+}
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+.card-title 
+{
+line-height:15px !important;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) { .card-title 
+{
+line-height:25px !important;
+}
+}

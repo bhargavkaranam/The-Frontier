@@ -1,0 +1,79 @@
+<head>
+<link rel="icon" href="favicon.png" sizes="16x16" type="image/png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+		$(".se-pre-con").fadeOut("slow");
+	});
+  $(document).ready(function() {
+    $(".search").hide();
+    $(".button-collapse").sideNav();
+     $('.dropdown-button').dropdown({
+      inDuration: 300,
+      outDuration: 225,
+      constrain_width: false, 
+      hover: true, 
+      gutter: 0, 
+      belowOrigin: false 
+    }
+  );
+   
+  });  
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=144512422311701";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="se-pre-con"></div>
+<div class="navbar-fixed">
+<nav>
+  <div style="background-color:#009688;z-index:9999;" class="nav-wrapper">
+    <a href="index.php" style="font-family:forque;padding:5px;" class="brand-logo"><img src="logo.png" height="55"></a>
+    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+    <li><div style="width:300px;" class="search"><form method="get" action="search.php"><input autocomplete="off" name="search_term" type="text" placeholder="Search" required></form></div></li>
+    <li><a><i id="search" class="material-icons">search</i></a></li>
+    <li><a class="waves-effect" href="news.php">News</a></li>
+  <li><a class="waves-effect" href="sci-fi.php">Sci-Fi</a></li>
+  <li><a class="waves-effect" href="reviews.php">Reviews</a></li>
+  <li><a class="waves-effect" href="gaming.php">Gaming</a></li>
+  <li><a class="waves-effect" href="gadgets.php">Gadgets</a></li>
+      <li><a class="waves-effect" href="about.php">About Us</a></li>
+
+    </ul>
+    <ul class="side-nav" id="mobile-demo">
+        <li><a href="news.php">News</a></li>
+  <li><a href="sci-fi.php">Sci-Fi</a></li>
+  <li><a href="reviews.php">Reviews</a></li>
+  <li><a href="gaming">Gaming</a></li>
+  <li><a href="gadgets.php">Gadgets</a></li>
+      <li><a href="about.php">About Us</a></li>
+
+      </ul>
+  </div>
+</nav>
+</div>
+
+ <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+    <a style="background:url(favicon.png);background-size:cover; background-position:center center;" class="btn-floating btn-large red">
+      
+    </a>
+    <ul>
+      <li><a class="btn-floating red"><i class="material-icons">contact_phone</i></a></li>
+     <li> <a href='http://www.facebook.com/TheFrontier.in' style='background:url(resources/fbicon.jpg);background-size:cover;' class="btn-floating yellow darken-1"></a></li>
+      <li><a style='background:url(resources/twittericon.jpg);background-size:cover;' class="btn-floating green"></a></li>
+      <li><a style='background:url(resources/gplusicon.jpg);background-size:cover;' class="btn-floating blue"></a></li>
+    </ul>
+  </div>

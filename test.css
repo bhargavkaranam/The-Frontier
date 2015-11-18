@@ -1,0 +1,108 @@
+@font-face
+{
+    font-family: 'league';
+    src:url(fonts/leaguegothic-regular-webfont.woff) format('woff');
+}
+html,body
+{
+	background-color: #E0E0E0;
+}
+h2
+{
+	font-size: 20px;
+	text-align: left;
+	font-family: 'roboto';
+	color: #212121;
+}
+h3
+{
+	text-align: center;
+}
+p
+{
+	font-family: 'roboto';
+	font-size:18px;
+}
+
+hr
+{
+	border-color: #000;
+}
+
+p
+ {
+ 	padding:0;
+margin:0;
+ }
+.share
+{
+position:fixed;
+}
+.share tr
+{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+ .w3_whatsapp_btn {
+    background-image: url('icon1.png');
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: inline-block !important;
+    position: relative;
+    font-family: Arial,sans-serif;
+    letter-spacing: .4px;
+    cursor: pointer;
+    font-weight: 400;
+    text-transform: none;
+    color: #fff;
+    border-radius: 2px;
+    background-color: #5cbe4a;
+    background-repeat: no-repeat;
+    line-height: 1.2;
+    text-decoration: none;
+    text-align: left;
+}
+
+.w3_whatsapp_btn_small {
+    font-size: 12px;
+    background-size: 16px;
+    background-position: 5px 2px;
+    padding: 3px 6px 3px 25px;
+}
+
+.w3_whatsapp_btn_medium {
+    font-size: 16px;
+    background-size: 20px;
+    background-position: 4px 2px;
+    padding: 4px 6px 4px 30px;
+}
+
+.w3_whatsapp_btn_large {
+    font-size: 16px;
+    background-size: 20px;
+    background-position: 5px 5px;
+    padding: 8px 6px 8px 30px;
+    color: #fff;
+}
+a.whatsapp { color: #fff;}
+.sharebuttons
+{
+	height: 50px;
+	width: 50px;
+}
+.grey
+{
+	color: #000000;
+}
+.card-title
+{
+padding:4px !important;
+}
+.matter
+{
+overflow-x:hidden;
+}
+.matter img
+{
+max-width:100%;
+}
